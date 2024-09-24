@@ -1,0 +1,47 @@
+.form-box{
+    width: 100%;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding:10px 15px;
+}
+
+.form-box label{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form-box input{
+    border: 2px solid #858484;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.form-box input:hover{
+    border: 2px solid #007bff;
+}
+
+.form-box input:focus {
+    border: 2.5px solid rgb(17, 135, 252);
+    outline: none;
+}
+
+.form-box input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:420px) {
+    .form-box label{
+        font-size: 16px;
+    }
+}
