@@ -1,5 +1,7 @@
 # Resume Builder 
 Its a resume building website
 
-<h3> Features </h3>
+## Features
 * Use to create instant resume
+* Easy to use
+* Easy to change position of content
